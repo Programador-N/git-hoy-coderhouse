@@ -1,0 +1,459 @@
+/* Estilos generales    COMO HABIAMOS HECHO PARA AGREGARLE UN FONDO NEGRO CON OPACIDAD                         */
+body {
+  background-image: linear-gradient(
+    295deg,
+    hsl(77deg 100% 46%) 13%,
+    hsl(74deg 100% 46%) 33%,
+    hsl(71deg 100% 46%) 40%,
+    hsl(68deg 100% 46%) 44%,
+    hsl(65deg 100% 46%) 47%,
+    hsl(62deg 100% 46%) 49%,
+    hsl(59deg 100% 46%) 50%,
+    hsl(57deg 100% 48%) 50%,
+    hsl(55deg 100% 50%) 50%,
+    hsl(56deg 98% 50%) 50%,
+    hsl(57deg 98% 50%) 50%,
+    hsl(58deg 97% 50%) 50%,
+    hsl(59deg 96% 51%) 50%,
+    hsl(60deg 95% 51%) 50%,
+    hsl(61deg 97% 52%) 50%,
+    hsl(62deg 99% 52%) 50%,
+    hsl(62deg 83% 49%) 50%,
+    hsl(62deg 75% 43%) 50%,
+    hsl(62deg 69% 37%) 51%,
+    hsl(61deg 63% 30%) 53%,
+    hsl(61deg 56% 23%) 56%,
+    hsl(60deg 48% 16%) 60%,
+    hsl(58deg 39% 10%) 67%,
+    hsl(0deg 0% 0%) 87%
+  );
+  background-repeat: repeat;
+  font-weight: 900;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* Estilos para el encabezado */
+.header {
+  background-image: linear-gradient(
+      315deg,
+      rgb(27, 92, 18) 0%,
+      rgb(27, 92, 18) 2%,
+      rgb(28, 82, 45) 2%,
+      rgb(28, 82, 45) 23%,
+      rgb(29, 72, 72) 23%,
+      rgb(29, 72, 72) 34%,
+      rgb(30, 61, 98) 34%,
+      rgb(30, 61, 98) 96%,
+      rgb(31, 51, 125) 96%,
+      rgb(31, 51, 125) 100%
+    ),
+    linear-gradient(
+      270deg,
+      rgb(27, 92, 18) 0%,
+      rgb(27, 92, 18) 2%,
+      rgb(28, 82, 45) 2%,
+      rgb(28, 82, 45) 23%,
+      rgb(29, 72, 72) 23%,
+      rgb(29, 72, 72) 34%,
+      rgb(30, 61, 98) 34%,
+      rgb(30, 61, 98) 96%,
+      rgb(31, 51, 125) 96%,
+      rgb(31, 51, 125) 100%
+    ),
+    linear-gradient(
+      405deg,
+      rgb(27, 92, 18) 0%,
+      rgb(27, 92, 18) 2%,
+      rgb(28, 82, 45) 2%,
+      rgb(28, 82, 45) 23%,
+      rgb(29, 72, 72) 23%,
+      rgb(29, 72, 72) 34%,
+      rgb(30, 61, 98) 34%,
+      rgb(30, 61, 98) 96%,
+      rgb(31, 51, 125) 96%,
+      rgb(31, 51, 125) 100%
+    ),
+    linear-gradient(360deg, rgb(186, 19, 165), rgb(19, 125, 241));
+  background-blend-mode: overlay, overlay, overlay, normal;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Estilos para la barra de navegación */
+
+.header {
+  background-image: linear-gradient(
+    295deg,
+    hsl(77deg 100% 46%) 13%,
+    hsl(74deg 100% 46%) 33%,
+    hsl(71deg 100% 46%) 40%,
+    hsl(68deg 100% 46%) 44%,
+    hsl(65deg 100% 46%) 47%,
+    hsl(62deg 100% 46%) 49%,
+    hsl(59deg 100% 46%) 50%,
+    hsl(57deg 100% 48%) 50%,
+    hsl(55deg 100% 50%) 50%,
+    hsl(56deg 98% 50%) 50%,
+    hsl(57deg 98% 50%) 50%,
+    hsl(58deg 97% 50%) 50%,
+    hsl(59deg 96% 51%) 50%,
+    hsl(60deg 95% 51%) 50%,
+    hsl(61deg 97% 52%) 50%,
+    hsl(62deg 99% 52%) 50%,
+    hsl(62deg 83% 49%) 50%,
+    hsl(62deg 75% 43%) 50%,
+    hsl(62deg 69% 37%) 51%,
+    hsl(61deg 63% 30%) 53%,
+    hsl(61deg 56% 23%) 56%,
+    hsl(60deg 48% 16%) 60%,
+    hsl(58deg 39% 10%) 67%,
+    hsl(0deg 0% 0%) 87%
+  );
+  padding: 20px;
+  text-align: center;
+}
+
+.nav {
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url("./img/bandera-invisible.jpg");
+  padding: 10px;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  margin: 10px 0;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+}
+
+/* Estilos para el menú de navegación tipo hamburguesa */
+.nav-toggle {
+  display: none;
+}
+
+.nav-toggle-label {
+  cursor: pointer;
+  padding: 10px 20px;
+  background-image: url("./img/bandera-invisible.jpg");
+}
+
+.nav-toggle-label span {
+  display: block;
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin: 5px 0;
+}
+
+/* Estilos específicos para diferentes tamaños de pantalla */
+@media screen and (max-width: 768px) {
+  .nav-links {
+    display: none;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    background-color: #333;
+    padding: 10px 0;
+    z-index: 1;
+  }
+
+  .nav-link {
+    margin: 10px 0;
+  }
+
+  .nav-toggle:checked + .nav-links {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nav-toggle-label span {
+    background-color: #fff;
+  }
+}
+
+/* Estilos para la sección de texto de presentación */
+.texto-presentacion {
+  text-align: center;
+  padding: 20px;
+}
+
+.titulo-presentacion {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.descripcion-presentacion {
+  font-size: 1.5em;
+}
+
+/* Estilo para contenedor de imagen */
+.caja-imagen {
+  border: #f80000 solid 1px;
+  max-width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  margin: auto; /* Simplificado a solo 'auto' para centrado horizontal */
+  display: block;
+}
+
+/* Estilo del footer */
+.footer-container {
+  background-image: linear-gradient(360deg, rgb(15, 15, 15), rgb(119, 119, 119)),
+    linear-gradient(
+      67.5deg,
+      rgb(61, 40, 216) 0%,
+      rgb(61, 40, 216) 19%,
+      rgb(55, 42, 182) 19%,
+      rgb(55, 42, 182) 27%,
+      rgb(49, 44, 147) 27%,
+      rgb(49, 44, 147) 37%,
+      rgb(42, 46, 113) 37%,
+      rgb(42, 46, 113) 48%,
+      rgb(36, 48, 78) 48%,
+      rgb(36, 48, 78) 73%,
+      rgb(30, 50, 44) 73%,
+      rgb(30, 50, 44) 100%
+    ),
+    linear-gradient(
+      270deg,
+      rgb(61, 40, 216) 0%,
+      rgb(61, 40, 216) 19%,
+      rgb(55, 42, 182) 19%,
+      rgb(55, 42, 182) 27%,
+      rgb(49, 44, 147) 27%,
+      rgb(49, 44, 147) 37%,
+      rgb(42, 46, 113) 37%,
+      rgb(42, 46, 113) 48%,
+      rgb(36, 48, 78) 48%,
+      rgb(36, 48, 78) 73%,
+      rgb(30, 50, 44) 73%,
+      rgb(30, 50, 44) 100%
+    ),
+    linear-gradient(
+      22.5deg,
+      rgb(61, 40, 216) 0%,
+      rgb(61, 40, 216) 19%,
+      rgb(55, 42, 182) 19%,
+      rgb(55, 42, 182) 27%,
+      rgb(49, 44, 147) 27%,
+      rgb(49, 44, 147) 37%,
+      rgb(42, 46, 113) 37%,
+      rgb(42, 46, 113) 48%,
+      rgb(36, 48, 78) 48%,
+      rgb(36, 48, 78) 73%,
+      rgb(30, 50, 44) 73%,
+      rgb(30, 50, 44) 100%
+    );
+  background-blend-mode: overlay, overlay, overlay, normal;
+  padding: 30px 0;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+/* Estilos para las secciones del footer */
+.footer-section {
+  flex: 1;
+  margin: 0 20px;
+}
+
+.footer-heading {
+  font-size: 1.2rem;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.footer-links {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 8px;
+}
+
+.footer-links li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer-links li a:hover {
+  color: #000000;
+}
+
+.social-media-links {
+  list-style-type: none;
+  padding: 0;
+}
+
+.social-media-links li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social-media-links li:last-child {
+  margin-right: 0;
+}
+
+.social-media-links li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.social-media-links li a:hover {
+  color: #b3b3b3;
+}
+
+/* Nuevo estilo */
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+.gallery {
+  position: relative;
+}
+
+.image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Estilos adicionales para las imágenes */
+.column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.column img {
+  width: 100%;
+  height: auto;
+}
+
+/* Estilos para la descripción de las imágenes */
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+/* Estilos para el contenedor de imágenes con scroll */
+div.scroll-container {
+  background-image: linear-gradient(
+      315deg,
+      rgb(27, 92, 18) 0%,
+      rgb(27, 92, 18) 2%,
+      rgb(28, 82, 45) 2%,
+      rgb(28, 82, 45) 23%,
+      rgb(29, 72, 72) 23%,
+      rgb(29, 72, 72) 34%,
+      rgb(30, 61, 98) 34%,
+      rgb(30, 61, 98) 96%,
+      rgb(31, 51, 125) 96%,
+      rgb(31, 51, 125) 100%
+    ),
+    linear-gradient(
+      270deg,
+      rgb(27, 92, 18) 0%,
+      rgb(27, 92, 18) 2%,
+      rgb(28, 82, 45) 2%,
+      rgb(28, 82, 45) 23%,
+      rgb(29, 72, 72) 23%,
+      rgb(29, 72, 72) 34%,
+      rgb(30, 61, 98) 34%,
+      rgb(30, 61, 98) 96%,
+      rgb(31, 51, 125) 96%,
+      rgb(31, 51, 125) 100%
+    ),
+    linear-gradient(
+      405deg,
+      rgb(27, 92, 18) 0%,
+      rgb(27, 92, 18) 2%,
+      rgb(28, 82, 45) 2%,
+      rgb(28, 82, 45) 23%,
+      rgb(29, 72, 72) 23%,
+      rgb(29, 72, 72) 34%,
+      rgb(30, 61, 98) 34%,
+      rgb(30, 61, 98) 96%,
+      rgb(31, 51, 125) 96%,
+      rgb(31, 51, 125) 100%
+    ),
+    linear-gradient(360deg, rgb(186, 19, 165), rgb(19, 125, 241));
+  background-blend-mode: overlay, overlay, overlay, normal;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+div.scroll-container img {
+  background-color: rgba(0, 0, 0, 0.306);
+  padding: 10px;
+}
+
+/* Estilos para las imágenes responsivas */
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
